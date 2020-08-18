@@ -1,0 +1,7 @@
+name: proxcye
+
+deps:
+  - urlobject
+  - requests
+  - pudb
+  - celery==4.4.7
