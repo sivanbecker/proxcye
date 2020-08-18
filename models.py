@@ -25,6 +25,5 @@ class Req(db.Model):
     def send1(self):
 
         res = requests.get(self._DOGS_API)
-        print(res)
         res.raise_for_status()
         config['requests'][self.uid] = res.json()
